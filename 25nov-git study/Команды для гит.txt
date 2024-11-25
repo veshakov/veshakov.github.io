@@ -1,0 +1,18 @@
+git - проверка на существование гита на компе
+ssh-keygen - генерация ssh ключа для компа (на каждом пк он свой)
+сразу команда вывдаёт путь где лежит файл с ключом (id_ed25519.pub - примерное имя)
+иконка-settings-SH and GPT keys-New SSH key – добавление ключа на гит
+
+cd путь - переход в папку
+git clone git@github.com:veshakov/veshakov.github.io.git -клонирование в папку репозитория
+
+путь из верхней команды - <> Code - SSH 
+
+git add . - рагрузка в лист ожидания всех измененений(?)
+git status
+git commit -m "12nov"
+git confirg --global user.email "kovalenko.alex.010506.kolledg@gmail.com"
+git config --global user.name "Veshakov"
+
+git push origin main - загрузка в оригинал ветки main
+
