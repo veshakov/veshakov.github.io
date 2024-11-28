@@ -1,0 +1,15 @@
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\bin\Debug\net8.0\HelloApp.exe
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\bin\Debug\net8.0\HelloApp.deps.json
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\bin\Debug\net8.0\HelloApp.runtimeconfig.json
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\bin\Debug\net8.0\HelloApp.dll
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\bin\Debug\net8.0\HelloApp.pdb
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\obj\Debug\net8.0\HelloApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\obj\Debug\net8.0\HelloApp.AssemblyInfoInputs.cache
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\obj\Debug\net8.0\HelloApp.AssemblyInfo.cs
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\obj\Debug\net8.0\HelloApp.csproj.CoreCompileInputs.cache
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\obj\Debug\net8.0\HelloApp.sourcelink.json
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\obj\Debug\net8.0\HelloApp.dll
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\obj\Debug\net8.0\refint\HelloApp.dll
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\obj\Debug\net8.0\HelloApp.pdb
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\obj\Debug\net8.0\HelloApp.genruntimeconfig.cache
+G:\kova\veshakov.github.io\study c#\HelloApp\HelloApp\obj\Debug\net8.0\ref\HelloApp.dll
