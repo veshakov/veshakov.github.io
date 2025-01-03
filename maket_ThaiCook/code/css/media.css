@@ -1,9 +1,9 @@
 @media (max-width: 360px) {
 
-
     nav{
         flex-direction: column;
-        padding: 10px;
+        padding: 30px;
+        
     }
     nav a{
         font-size: 20px;
@@ -154,8 +154,8 @@
 
     }
     .section8 .soc-icons div, footer .soc-icons div{
-        width:  60px;
-        height: 60px;
+        width:  40px;
+        height: 40px;
         background: #808a228a;
         border-radius: 15px;
         margin:10px 20px 0 0;
