@@ -1,4 +1,5 @@
 let slider= document.querySelector('#slider');
+slider.style.transform =  'translateX(0px)';
 
 let left= document.querySelector('#left');
 let right= document.querySelector('#right');
