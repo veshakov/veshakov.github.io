@@ -1,0 +1,185 @@
+@media (max-width: 360px) {
+
+
+    nav{
+        flex-direction: column;
+        padding: 10px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    nav a:hover{
+        font-size: 21px;
+    }
+/* SLIDER */
+.section2 .arrows img{
+    width: 50px;
+    transition: 0.5s;
+    padding: 0;
+    margin: 0;
+    opacity: 50%;
+}
+.section2 .arrows img:hover{
+    width: 55px;
+    padding: 0;
+    margin: 0;
+    transition: 0.5s;
+    opacity: 70%;
+
+}
+.arrows{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+/* ................. */
+.section2 .slider img{
+    width: 150px;
+    margin: 30px 20px;
+    cursor: pointer;
+}
+
+.section2 h2{
+    text-align: center;
+    font-weight:bold;
+    font-size: 30px;
+    padding: 50px 10px 10px 20px ;
+}
+/* ///////// */
+    .section3 img{
+        max-width: 300px;
+
+    }
+    .section3 .block1, .section3 .block2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .section3 p{
+        line-height: 20px;
+        max-width: 300px;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .section3 .block2{
+        
+        padding-left: 0px;
+
+    }
+    .section3 h3{
+        font-weight:bold;
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    
+/* //////// */
+    .section4 .block4 .img{
+        max-width: 350px;
+        height: 150px;
+    }
+    .section4 .text{display: none;}
+    .section4 .hidden{
+        display: block;
+        font-size: 20px;
+    }
+    .section4 .block4{
+        flex-direction: column;
+
+    }
+
+    .section4{
+        margin: 0px 0 70px 0;
+    
+    }
+    .section4 h3{
+        text-align: center;
+        font-weight:bold;
+        font-size: 30px;
+        padding: 20px 0 ;
+    }
+    .section4 .block4{
+        border-radius: 20px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+
+/* ///////////            !!!!!!!!!!! скрыто в цлях переформирования*/ 
+    .section6{
+        display: none;
+    }
+/* /////////// */
+    .section7 .img{
+        max-width: 300px;
+        max-height: 200px;
+    }
+    .section7 .block2:last-child{
+        flex-direction: column-reverse;
+
+    }
+    .section7{
+        padding: 0;
+        margin: 0;
+    }
+    .section7 .block2{
+        padding:20px 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section7 .block2 p{
+        max-width: 300px;
+        margin: 10px 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+/* /////// */
+    .section8 .block1{
+        flex-wrap: wrap;
+    }
+    .section8 .text {
+        padding:10px 0;
+
+    }
+    .section8 .text h3{
+        font-weight:bold;
+        font-size: 30px;
+    }
+    .section8 .text p{
+        padding-top: 15px;
+        font-size: 20px;
+
+    }
+    .section8 .soc-icons div, footer .soc-icons div{
+        width:  60px;
+        height: 60px;
+        background: #808a228a;
+        border-radius: 15px;
+        margin:10px 20px 0 0;
+    }
+    .section8 iframe{
+        width: 350px;
+        height: 300px;
+    }
+/* /////////// */
+footer .block1{
+    flex-direction: column;
+}
+footer{
+    background: #282C03;
+    padding: 40px 0;
+}
+
+footer .text{
+    color: white;
+    gap: 20px;
+    text-align: center;
+}
+footer .block1{
+    margin: 40px;
+    gap: 100px;
+}
+}
