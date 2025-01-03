@@ -38,7 +38,7 @@
     justify-content: space-evenly;
 }
 .section2 h2{
-    font-weight: lighter;
+    font-weight:normal;
     font-size: 40px;
     padding: 50px 10px 10px 20px ;
 }
@@ -76,7 +76,7 @@
         align-items: center;
     } */
 
-/* /////////// */
+/* ///////////            !!!!!!!!!!! скрыто в цлях переформирования*/ 
     .section6{
         display: none;
     }
