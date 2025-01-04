@@ -26,9 +26,3 @@ right.addEventListener("click", function(){
     
 });
 
-
-
-let p = document.querySelectorAll('#plate-img');
- p.onmouseover = function(event){
-    console.log(234);
- }

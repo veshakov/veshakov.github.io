@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="../css/plate.css">
     <link rel="stylesheet" href="../css/media-plate.css">
 
-    <!-- <script src="../js/script2.js"></script> -->
+    <script src="../js/plate.js" defer></script>
+
 </head>
 <body>
     <header class="section1">
@@ -30,11 +31,10 @@
         <nav class="flex aic">
             
             <a href="../index.html">Главная</a>
-            <a href="#">Меню</a>
-            <a href="#">Сезонные мероприятия</a>
-            <a href="#">О ресторане</a>
-            <a href="#">Контакты</a>
-            <a href="#">События</a>
+            <a href="catalog.html">Меню</a>
+            <a href="../index.html">О ресторане</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="events.html">События</a>
             
         </nav>
     </header>
@@ -68,8 +68,11 @@
         </section>
         <section class="section2">
             <div class="block1 flex aic">
+                <div id="blockimg" class="blockimg">
 
-                <img id='plate-img' class='main-img'  src='../../images/plates/plate1.png'  alt='блюдо'>
+                    <!-- <img id='plate-img' class='main-img'  src='../../images/plates/plate1.png'  alt='блюдо'> -->
+                </div>
+
                 <div class="text">
                     <h3>Тайское блюдо</h3>
                     <p>Время готовности : 1 час 30 минут</p>
@@ -119,16 +122,16 @@
                 <h3>Рекомендуем заказать к блюду :</h3>
                 <div class="block2 flex ">
                     <div class="block3 flex col aic">
-                        <img src="../../images/plate1.png" alt="рекомендации">
+                        <a href="plate.html?img=1"><img src="../../images/plates/plate1.png" alt="рекомендации"></a>
                         <p>Название блюда</p>
                     </div>
                     <div class="block3 flex col aic">
-                        <img src="../../images/plate2.png" alt="рекомендации">
+                        <a href="plate.html?img=2"><img src="../../images/plates/plate2.png" alt="рекомендации"></a>
                         <p>Название блюда два</p>
 
                     </div>
                     <div class="block3 flex col aic">
-                        <img src="../../images/plate1.png" alt="рекомендации">
+                        <a href="plate.html?img=3"><img src="../../images/plates/plate3.png" alt="рекомендации"></a>
                         <p>Название блюда</p>
 
                     </div>
@@ -151,7 +154,7 @@
                 <p>+8 800 55 35 35 </p>
             </div>
         </div>
-        <img src="../images/Thai Cook.png" alt="Thai-Cook">
+        <img src="../../images/Thai Cook.png" alt="Thai-Cook">
         <div class="hr"></div>
     </footer>
     
