@@ -1,20 +1,31 @@
+.section1 img:hover{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.329) 0%, rgba(255,255,255,0) 50%);
+    border-radius: 10px;
+    width: 222px;
+    padding: 2.5px 10px;
+    transition: 0.5s;
+
+}
+.section1 img{
+    padding: 10px 15px;
+    width: 212px;
+    background: rgba(255, 255, 255, 0.452);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255,255,255,0) 50%);
+    border-radius: 10px;
+    /* opacity: 0%; */
+    transition: 0.5s;
+}
+
 nav a:hover{
     background: #808a226c;
     transition: 0.5s;
     border-radius: 20px;
     font-size: 31px;
     padding: 17px;
-
-
-}
-nav a{
-    border: 2px solid #808a2200;
-
-
-    border-radius: 30px;
-    background: none;
     transition: 0.5s
 }
+
 
 /* /////////// */
 
