@@ -136,6 +136,12 @@
 }
 
 @media(max-width:1400px){
+    nav{
+
+        padding: 10px;
+        
+    }
+    /* ////// */
     .section3 p{
         width: 800px;
     }
