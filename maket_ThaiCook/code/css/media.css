@@ -200,6 +200,7 @@
 /* ................. */
 .section2 .slider img{
     width: 150px;
+    height: 150px;
     margin: 30px 20px;
     cursor: pointer;
 }

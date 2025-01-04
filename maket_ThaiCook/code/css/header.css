@@ -1,0 +1,36 @@
+/* //////// */
+.section1{
+    background-image: url(../../images/header_back.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section1 h3{
+    margin: 20px 0 ;
+    font-size: 25px;
+}
+.section1 .block2{
+    padding: 50px 0 0 0;
+}
+.section1 .block1{
+    padding: 90px;
+}
+
+/* //////////// */
+nav{
+
+    background-color: #282C03;
+    
+    text-align: center;
+    padding: 30px 150px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+}

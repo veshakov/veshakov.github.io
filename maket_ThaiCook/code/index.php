@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/header.css">
 
-    <script src="js/script.js" defer></script>
+    
     <!-- <script src="js/plate.js" defer></script> -->
 </head>
 <body>
@@ -35,7 +35,8 @@
         </nav>
     </header>
     <main>
-        <section class="section2 flex col ">
+        
+    <section class="section2 flex col ">
             <div class=" flex col aic">
                 <h2>Блюда-хиты</h2>
                 <div class="arrows">
@@ -45,7 +46,7 @@
 
             </div>
             <div id="slider" class="slider flex aic">
-                <a href="public/plate.html?img=1 "><img id="plate-img" src="../images/plates/plate1.png"  alt="#"></a>
+                <a href="public/plate.php?img=1 "><img id="plate-img" src="../images/plates/plate1.png"  alt="#"></a>
                 <a href="public/plate.html?img=2 "><img id="plate-img" src="../images/plates/plate2.png"  alt="#"></a>
                 <a href="public/plate.html?img=3 "><img id="plate-img" src="../images/plates/plate3.png"  alt="#"></a>
                 <a href="public/plate.html?img=4 "><img id="plate-img" src="../images/plates/plate4.png"  alt="#"></a>
@@ -60,6 +61,7 @@
                 
             </div>
         </section>
+        
         <section class="section3 flex col aic">
             <div class="block1 flex">
                 <img src="../images/restaurant-interior (1).jpg" alt="">

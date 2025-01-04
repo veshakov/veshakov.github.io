@@ -1,5 +1,5 @@
-let slider= document.querySelector('#slider');
-slider.style.transform =  'translateX(0px)';
+let slider1= document.querySelector('#slider');
+slider1.style.transform =  'translateX(0px)';
 
 let left= document.querySelector('#left');
 let right= document.querySelector('#right');
@@ -9,19 +9,26 @@ let step = 500;
 let w =(250+40)*12;
 
 left.addEventListener("click", function(){
-    console.log(i);
+
     if(i<0){
         i=i+step;
-        slider.style.transform =  'translateX('+ i +'px)';
-        slider.style.transition =  '0.5s';
+        slider1.style.transform =  'translateX('+ i +'px)';
+        slider1.style.transition =  '0.5s';
     }
 });
 right.addEventListener("click", function(){
     if(i> -w+(step*3)){
         i=i-step;
-        slider.style.transform =  'translateX('+ i +'px)';
-        slider.style.transition =  '0.5s';
+        slider1.style.transform =  'translateX('+ i +'px)';
+        slider1.style.transition =  '0.5s';
 
     }   
     
 });
+
+
+
+let p = document.querySelectorAll('#plate-img');
+ p.onmouseover = function(event){
+    console.log(234);
+ }
