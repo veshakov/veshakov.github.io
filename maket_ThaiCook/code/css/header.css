@@ -23,7 +23,7 @@ nav{
     background-color: #282C03;
     
     text-align: center;
-    padding: 30px 150px;
+    /* padding: 30px 150px; */
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
