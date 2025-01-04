@@ -4,7 +4,7 @@ slider1.style.transform =  'translateX(0px)';
 let left= document.querySelector('#left');
 let right= document.querySelector('#right');
 let i= 0;
-let step = 500;
+let step = 200;
 
 let w =(250+40)*12;
 
@@ -17,7 +17,7 @@ left.addEventListener("click", function(){
     }
 });
 right.addEventListener("click", function(){
-    if(i> -w+(step*3)){
+    if(i> -w+(step*8)){
         i=i-step;
         slider1.style.transform =  'translateX('+ i +'px)';
         slider1.style.transition =  '0.5s';
