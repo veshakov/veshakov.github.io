@@ -28,8 +28,10 @@
         border-radius: 0;
     }
     .section3 .block1 p{
+        line-height: normal;
+
         font-size: 20px;
-        width: 300px;
+        max-width: 300px;
     }
     .section3 li{
         font-size: 20px;
