@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 /* SLIDER */
-.section2 .arrows img{
+ .section2 .arrows img{
     width: 50px;
     transition: 0.5s;
     margin:20px 50px 10px 0;
@@ -20,14 +20,52 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
+} 
 /* ................. */
-.section2 .slider img{
-    width:  250px;
-    height: 250px;
-    margin: 30px 40px;
-    cursor: pointer;
+.slider{
+    /* background: #ccc; */
+    width: auto;
 }
+
+.slider .card{
+    font-size: 20px;
+    max-width: 457px;
+    margin: 10px;
+    background: #e9e9e9;
+    padding: 30px 10px;
+    border-radius: 10px;
+    background: radial-gradient(circle, rgb(241, 245, 230) 0%, rgb(166, 204, 158) 100%);
+    color: #282C03;
+    text-align: center;
+    max-width: 300px;
+    text-decoration: none;
+}
+
+.slider .card:hover{
+    background: radial-gradient(circle, rgb(241, 245, 230) 0%, rgb(193, 226, 147) 150%);
+}
+.slider a{
+    text-decoration: none;
+}
+
+.slider .card img{
+    margin: 10px 10px 30px 10px;
+
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(10px 10px 10px rgba(5, 13, 29, 0.322));
+    transition: 0.5s;
+
+}
+.slider .card:hover img{
+    /* margin: 10px 10px 35px 10px;
+    width: 160px;
+    height: 160px; */
+    filter: drop-shadow(5px 10px 5px rgba(5, 13, 29, 0.459));
+    transition: 0.5s;
+
+}
+
 .section2 .slider {
 
     justify-content: space-evenly;
@@ -105,19 +143,39 @@
 /* /////////// */
 .section6{
     padding: 90px;
+
 }
-.section6 ul{
-    list-style-image:url(../../images/list-img.png);
-    list-style-position: outside;
+.section6 .block2{
+    list-style-type: none;
+    list-style-position: inside;
+    
 }
 .section6 .block1{
     justify-content: space-evenly;
 }
-.section6 li{
+
+.section6 .li{
     font-size: 20px;
     max-width: 457px;
-    margin: 20px;
+    margin: 10px;
+    background: #e9e9e9;
+    padding: 30px 10px;
+    border-radius: 10px;
+    background: radial-gradient(circle, rgb(241, 245, 230) 0%, rgb(182, 182, 182) 100%);
+    color: #282C03;
+    text-align: center;
+    max-width: 300px;
+
 }
+
+.section6 .li img{
+    margin: 10px 10px 30px 10px;
+
+    width: 150px;
+    filter: drop-shadow(10px 10px 10px rgba(5, 13, 29, 0.322));
+    transition: 0.5s;
+
+} 
 /* ///////// */
 
 

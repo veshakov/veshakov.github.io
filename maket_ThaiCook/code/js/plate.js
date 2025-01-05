@@ -25,6 +25,6 @@ img.src ='../../images/plates/plate'+ params['img'] +'.png';
 
 blockimg.append(img);
 
-console.log(blockimg);    
+// console.log(blockimg);    
     
     

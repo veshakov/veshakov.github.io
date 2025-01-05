@@ -296,8 +296,13 @@
 }   
 
 /* ///////////            !!!!!!!!!!! скрыто в цлях переформирования*/ 
-    .section6{
-        display: none;
+    .section6 .block2{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .section6 .block1{
+        align-items: center;
+
     }
 /* /////////// */
     .section7 .img{
