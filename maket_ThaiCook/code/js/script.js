@@ -13,7 +13,7 @@ let w =((step+20)*(slider1.getElementsByTagName('a').length));
 
 window.addEventListener("resize", function() {
     win_wid =window.innerWidth;
-    console.log(w- win_wid);
+    // console.log(w- win_wid);
     
     return  win_wid;
 
@@ -28,7 +28,7 @@ left.addEventListener("click", function(){
         slider1.style.transform =  'translateX('+ i +'px)';
         slider1.style.transition =  '0.5s';
         // console.log(i);
-        console.log(w- win_wid +'<');
+        // console.log(w- win_wid +'<');
 
     }
 });
@@ -44,7 +44,7 @@ right.addEventListener("click", function(){
         slider1.style.transform =  'translateX('+ i +'px)';
         slider1.style.transition =  '0.5s';
         
-        console.log(w- win_wid, calc);
+        // console.log(w- win_wid, calc);
     }   
     
 });

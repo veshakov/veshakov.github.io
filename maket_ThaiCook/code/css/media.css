@@ -70,6 +70,7 @@
 }
 .section4 .block4{
     flex-direction: column;
+    border-radius: 0;
 
 }
 
@@ -147,7 +148,6 @@
 
 @media(max-width:1400px){
     nav{
-
         padding: 10px;
         
     }
@@ -170,7 +170,7 @@
     }
     .section4 .block4{
         flex-direction: column;
-
+        border-radius: 0;
     }
 
     .section4{
@@ -189,6 +189,12 @@
         flex-wrap: wrap;
         gap: 20px;
     }
+
+    .section4 .block4 .img{
+        border-radius: 20px 20px 0px 0px;
+        
+    }
+
     
 }
 
@@ -289,7 +295,7 @@
     padding: 20px 0 ;
 }
 .section4 .block4{
-    border-radius: 20px;
+    border-radius: 0;
     overflow: hidden;
     flex-wrap: wrap;
     gap: 20px;
@@ -379,4 +385,35 @@ footer .block1{
     margin: 40px;
     gap: 50px;
 }
+}
+@media (max-width:1600px) {
+    .section4 .block4 .img{
+        border-radius: 20px;
+        width: 900px;
+        height: 350px;
+    }
+    .section4 .text{display: none;}
+    .section4 .hidden{
+        display: block;
+        font-size: 20px;
+    }
+    .section4 .block4{
+        flex-direction: column;
+        border-radius: 0;
+    }
+    .section4{
+        margin: 0px 0 70px 0;
+    }
+    .section4 h3{
+    text-align: center;
+    font-weight:bold;
+    font-size: 30px;
+    padding: 20px 0 ;
+    }
+    .section4 .block4{
+        border-radius: 0;
+        overflow: hidden;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 }

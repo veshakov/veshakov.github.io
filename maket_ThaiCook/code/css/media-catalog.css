@@ -1,0 +1,26 @@
+
+@media (max-width: 350px), (max-width: 500px) {
+    
+}
+
+@media(max-width:980px){
+    
+    
+}
+@media(max-width:1360px){
+    .section3 .block4 {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .section3 .block3{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:1400px){
+    .section3 .block2{
+        flex-direction: column;
+    }
+    
+}

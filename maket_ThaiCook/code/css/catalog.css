@@ -1,37 +1,71 @@
 .section2 {
     padding: 20px 100px;
 }
+.section2 ul h3{
+    padding:10px 0;
+    font-size: 30px;
+}
+.section2 .text a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
 
-.section2 .block2{
+}
+.section2 .text a:hover{
+    transition: 0.3s;
+    color: rgb(49, 139, 241);
+    text-decoration: underline;
+
+}
+.section2 .text {
+    padding: 10px 0;
+}
+
+/* //////// */
+.section3 {
+    padding: 20px 100px;
+}
+
+.section3 .block1 h3{
+    padding: 50px 0 0 0;
+    font-size: 25px;
+}
+.section3 .block2{
     flex-wrap: wrap;
     max-width: 1000px;
     
 }
 
-.section2 .block1 h3{
-    padding: 50px 0 0 0;
-    font-size: 25px;
+.section3 .block4{
+    padding: 10px 30px ;
+    justify-content: space-evenly;
 }
 
-.section2 .li{
+.section3 h4{
+    font-size: 23px;
+}
+
+.section3 .li{
     font-size: 20px;
-    max-width: 457px;
     margin: 10px;
-    background: #e9e9e9;
-    padding: 30px 10px;
+    background: #f0f0f0;
+    padding: 10px;
     border-radius: 10px;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(236, 236, 236, 0) 100%);
+    /* background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(236, 236, 236, 0) 100%); */
     color: #2c0303;
-    text-align: center;
-    max-width: 300px;
+    text-align: left;
     text-decoration: none;
 
 
 }
+.section3 .li .price{
+    white-space: nowrap;
+}
 
-.section2 .li img{
-    margin: 10px 10px 30px 10px;
 
+.section3 .li img{
+    margin: 30px;
     width: 150px;
     filter: drop-shadow(10px 10px 10px rgba(5, 13, 29, 0.322));
     transition: 0.5s;
