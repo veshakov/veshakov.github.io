@@ -83,6 +83,7 @@
 }
 .section3 img{
     max-width: 990px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.301);
 }
 .section3 .block2{
     
@@ -128,12 +129,13 @@
     background-size: cover;
     /* margin: 10px; */
     background-position: center;
-
+    
 }
 
 
 /* /////////// */
 .section5{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.301);
     background-image: url(../../images/thai-papaya-salad-white-plate-with-sticky-rice-dried-shrimps.jpg);
     min-height: 840px;
     width: 100%;
@@ -142,80 +144,46 @@
     background-position: center;
 }
 /* /////////// */
-.section6{
-    padding: 90px;
 
-}
-.section6 .block2{
-    list-style-type: none;
-    list-style-position: inside;
-    
-}
+
 .section6 .block1{
-    justify-content: space-evenly;
-}
-
-.section6 .li{
-    font-size: 20px;
-    max-width: 457px;
-    margin: 10px;
-    background: #e9e9e9;
-    padding: 30px 10px;
-    border-radius: 10px;
-    background: radial-gradient(circle, rgb(241, 245, 230) 0%, rgb(182, 182, 182) 100%);
-    color: #282C03;
-    text-align: center;
-    max-width: 300px;
-
-}
-
-.section6 .li img{
-    margin: 10px 10px 30px 10px;
-
-    width: 150px;
-    filter: drop-shadow(10px 10px 10px rgba(5, 13, 29, 0.322));
-    transition: 0.5s;
-
-} 
-/* ///////// */
-
-
-.section7 .block1{
     flex-wrap: wrap;
 }
-.section7 .block2{
+.section6 .block2{
     margin: 40px;
     flex-wrap: wrap;
 }
-.section7 .block1 .block2 .img{
+.section6 .block1 .block2 .img{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.301);
+
     width: 513px;
     height: 371px;
     border-radius: 20px;
 }
 
-.section7 p{
+.section6 p{
     margin:0 40px;
     width: 513px;
     font-size: 20px;
 }
 /* ///////// */
-.section8 .block1{
+.section7 .block1{
     flex-wrap: wrap;
 }
-.section8 .text {
+.section7 .text {
     padding-right: 60px;
 
 }
-.section8 .text h3{
+.section7 .text h3{
     font-weight:bold;
     font-size: 30px;
 }
-.section8 .text p{
+.section7 .text p{
     padding-top: 15px;
     font-size: 20px;
 
 }
-.section8 .soc-icons div, footer .soc-icons div{
+.section7 .soc-icons div, footer .soc-icons div{
     width:  60px;
     height: 60px;
     background: #808a228a;
