@@ -40,10 +40,45 @@
         font-size: 30px;
         padding: 20px 0;
     }
+    /* ////////// */
+    .section6 {
+        padding: 0;
+     }
+    .section6 .block1 .block2 .img{
+        max-width: 300px;
+       margin: 10px 0;
+
+    }
+    .section6 .block1 .block2 p{
+        max-width: 300px;
+        margin: 0 0;
+    }
+    .section6 .block2 {
+       margin: 10px 0;
+    }
     /* //////// */
     .section7 .img{
         width: 300px;
         height: 200px;
+    }
+    .section7 {
+        padding: 0;
+    }
+    .section7 address .block1{
+        word-break: normal;
+        max-width: 300px;
+        
+        font-size: 10px;
+    }
+    .section7 address .block1 .text{
+        padding: 0;
+    }
+    .section7 address .block1 iframe{
+        height: 200px;
+    }
+    .section7 .address{
+        word-break: normal;
+        max-width: 250px;
     }
 
 
@@ -301,7 +336,7 @@
     gap: 20px;
 }   
 
-/* ///////////            !!!!!!!!!!! скрыто в цлях переформирования*/ 
+/* ///////////*/ 
     .section6 .block2{
         flex-wrap: wrap;
         align-items: center;
