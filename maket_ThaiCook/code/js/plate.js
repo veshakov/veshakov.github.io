@@ -31,7 +31,7 @@ if(Number(params[img])>3){
     console.log( params);
 }
 
-img.src ='../../images/plates/plate'+ params['img'] +'.png';
+img.src ='../media/plates/plate'+ params['img'] +'.png';
 img.alt ="Фото блюда";
 
 blockimg.append(img);

@@ -1,0 +1,23 @@
+.section3 .block1{
+    flex-wrap: wrap;
+}
+.section3 .text {
+    padding-right: 60px;
+
+}
+.section3 .text h3{
+    font-weight:bold;
+    font-size: 30px;
+}
+.section3 .text p{
+    padding-top: 15px;
+    font-size: 20px;
+
+}
+.section3 .soc-icons div, footer .soc-icons div{
+    width:  60px;
+    height: 60px;
+    background: #808a228a;
+    border-radius: 15px;
+    margin:10px 20px 0 0;
+}

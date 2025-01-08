@@ -1,7 +1,7 @@
 <header class="section1">
         <div class="block1">
             <a href="../index.html">
-                <img src="../../images/Thai-Cook-logo.png" alt="">
+                <img src="../media/Thai-Cook-logo.png" alt="">
             </a>
             <div class="block2">
                 <h3>Открыто с 10:00 по 22:00</h3>

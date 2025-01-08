@@ -26,7 +26,7 @@
         
         <?php
         echo($_GET['img']);
-        echo("<img id='plate-img' class='main-img'  src='../../images/plates/plate".$_GET['img'].".png'  alt='#'>");
+        echo("<img id='plate-img' class='main-img'  src='../media/plates/plate".$_GET['img'].".png'  alt='#'>");
         ?> 
     </section>
 

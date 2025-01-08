@@ -18,7 +18,7 @@
 <body>
     <header class="section1">
         <div class="block1">
-            <img src="../images/Thai-Cook-logo.png" alt="">
+            <img src="media/Thai-Cook-logo.png" alt="">
             <div class="block2">
                 <h3>Открыто с 10:00 по 22:00</h3>
                 <h3>Россия, г. Омск, Речной пер., д. 20 кв.185</h3>
@@ -40,31 +40,31 @@
             <div class=" flex col aic">
                 <h2>Блюда-хиты</h2>
                 <div class="arrows">
-                    <img id="left"  src="../images/arrow-left.png" alt="" class="left">
-                    <img id="right" src="../images/arrow-right.png" alt="" class="right">
+                    <img id="left"  src="media/arrow-left.png" alt="" class="left">
+                    <img id="right" src="media/arrow-right.png" alt="" class="right">
                 </div>
 
             </div>
             <div id="slider" class="slider flex aic">
-                <a href="public/plate.php?img=1 "><img id="plate-img" src="../images/plates/plate1.png"  alt="#"></a>
-                <a href="public/plate.html?img=2 "><img id="plate-img" src="../images/plates/plate2.png"  alt="#"></a>
-                <a href="public/plate.html?img=3 "><img id="plate-img" src="../images/plates/plate3.png"  alt="#"></a>
-                <a href="public/plate.html?img=4 "><img id="plate-img" src="../images/plates/plate4.png"  alt="#"></a>
-                <a href="public/plate.html?img=5 "><img id="plate-img" src="../images/plates/plate5.png"  alt="#"></a>
-                <a href="public/plate.html?img=6 "><img id="plate-img" src="../images/plates/plate6.png"  alt="#"></a>
-                <a href="public/plate.html?img=7 "><img id="plate-img" src="../images/plates/plate7.png"  alt="#"></a>
-                <a href="public/plate.html?img=8 "><img id="plate-img" src="../images/plates/plate8.png"  alt="#"></a>
-                <a href="public/plate.html?img=9 "><img id="plate-img" src="../images/plates/plate9.png"  alt="#"></a>
-                <a href="public/plate.html?img=10"><img id="plate-img" src="../images/plates/plate10.png" alt="#"></a>
-                <a href="public/plate.html?img=11"><img id="plate-img" src="../images/plates/plate11.png" alt="#"></a>
-                <a href="public/plate.html?img=12"><img id="plate-img" src="../images/plates/plate12.png" alt="#"></a>
+                <a href="public/plate.php?img=1 "><img id="plate-img" src="media/plates/plate1.png"  alt="#"></a>
+                <a href="public/plate.html?img=2 "><img id="plate-img" src="media/plates/plate2.png"  alt="#"></a>
+                <a href="public/plate.html?img=3 "><img id="plate-img" src="media/plates/plate3.png"  alt="#"></a>
+                <a href="public/plate.html?img=4 "><img id="plate-img" src="media/plates/plate4.png"  alt="#"></a>
+                <a href="public/plate.html?img=5 "><img id="plate-img" src="media/plates/plate5.png"  alt="#"></a>
+                <a href="public/plate.html?img=6 "><img id="plate-img" src="media/plates/plate6.png"  alt="#"></a>
+                <a href="public/plate.html?img=7 "><img id="plate-img" src="media/plates/plate7.png"  alt="#"></a>
+                <a href="public/plate.html?img=8 "><img id="plate-img" src="media/plates/plate8.png"  alt="#"></a>
+                <a href="public/plate.html?img=9 "><img id="plate-img" src="media/plates/plate9.png"  alt="#"></a>
+                <a href="public/plate.html?img=10"><img id="plate-img" src="media/plates/plate10.png" alt="#"></a>
+                <a href="public/plate.html?img=11"><img id="plate-img" src="media/plates/plate11.png" alt="#"></a>
+                <a href="public/plate.html?img=12"><img id="plate-img" src="media/plates/plate12.png" alt="#"></a>
                 
             </div>
         </section>
         
         <section class="section3 flex col aic">
             <div class="block1 flex">
-                <img src="../images/restaurant-interior (1).jpg" alt="">
+                <img src="media/restaurant-interior (1).jpg" alt="">
                 <div class="block2 flex col">
                     <h3>Thai Cook приглашает!</h3>
                     <p>Сложно сказать, почему сторонники тоталитаризма в науке описаны максимально подробно. 
@@ -80,13 +80,13 @@
                 <div class="block2 flex col aic">
                     <div class="block3 flex col aic">
                             <div class="block4 flex aic">
-                                <div class="img" style=" background-image: url(../images/rice-noodles-chicken-green-curry-coconut-milk-thai-food.jpg) ;"></div>
+                                <div class="img" style=" background-image: url(media/rice-noodles-chicken-green-curry-coconut-milk-thai-food.jpg) ;"></div>
                                 <p class="hidden">Эстетичная подача</p>
                                 
-                                <div class="img" style=" background-image: url(../images/thai-papaya-salad-white-plate-with-sticky-rice-dried-shrimps.jpg) ;"></div>
+                                <div class="img" style=" background-image: url(media/thai-papaya-salad-white-plate-with-sticky-rice-dried-shrimps.jpg) ;"></div>
                                 <p class="hidden">Сложно сказать</p>
 
-                                <div class="img" style=" background-image: url(../images/rice-noodles-bowl-curry-paste-with-chili-cucumber-long-bean-lime-garlic-spring-onion.jpg) ;"></div>
+                                <div class="img" style=" background-image: url(media/rice-noodles-bowl-curry-paste-with-chili-cucumber-long-bean-lime-garlic-spring-onion.jpg) ;"></div>
                                 <p class="hidden">Разнообразное меню</p>
                                 
                             </div>
@@ -137,7 +137,7 @@
         <section class="section7">
             <div class="block1 flex col aic">
                 <div class="block2 flex">
-                    <div class="img" style="background: url(../images/rice-noodles-chicken-green-curry-coconut-milk-thai-food.jpg);
+                    <div class="img" style="background: url(media/rice-noodles-chicken-green-curry-coconut-milk-thai-food.jpg);
                      background-size: cover;
                      background-position: center;"></div>
                     <p>Сложно сказать, почему сторонники тоталитаризма в науке описаны максимально подробно. В своём стремлении повысить
@@ -150,7 +150,7 @@
                         качество жизни, они забывают, что выбранный нами инновационный
                         путь создаёт предпосылки для стандартных подходов. Также как глубокий уровень погружения является качественно
                         новой ступенью направлений прогрессивного развития.</p>
-                        <div class="img" style="background: url(../images/rice-noodles-bowl-curry-paste-with-chili-cucumber-long-bean-lime-garlic-spring-onion.jpg);
+                        <div class="img" style="background: url(media/rice-noodles-bowl-curry-paste-with-chili-cucumber-long-bean-lime-garlic-spring-onion.jpg);
                          background-size: cover;
                          background-position: center;"></div>
             </div>
@@ -197,7 +197,7 @@
                 <p>+8 800 55 35 35 </p>
             </div>
         </div>
-        <img src="../images/Thai Cook.png" alt="">
+        <img src="media/Thai Cook.png" alt="">
         <div class="hr"></div>
     </footer>
 </body>
