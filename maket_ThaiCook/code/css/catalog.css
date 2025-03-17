@@ -21,22 +21,22 @@
 
 }
 .onTop{
-    background: #808a22;
+    background: #acb83b75;
     width: 110px;
-    margin: 10px;
+    margin: 0px 10px 10px 10px;
     padding: 10px;
     border-radius: 10px;
     transition: 0.3s;
 }
 .onTop>a{
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: 0.3s;
 }
 .onTop:hover{
-    background: #abb83b;
-    margin: 10px;
+    background: #acb83b;
+    margin: 0px 10px 10px 10px;
     padding: 10px;
     border-radius: 9px;
     transition: 0.3s;
