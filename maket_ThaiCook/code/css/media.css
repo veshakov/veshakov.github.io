@@ -12,6 +12,11 @@
     nav a:hover{
         font-size: 21px;
     }
+    .section2 h2{
+        font-weight:bold;
+        font-size:15px;
+        padding: 10px 5px;
+    }
     /* ///////// */
     .section3 img{
         width: 300px;
@@ -186,6 +191,11 @@
         padding: 10px;
         
     }
+    .section2 h2{
+        font-weight:bold;
+        font-size:20px;
+        padding: 35px 20px;
+    }
     /* ////// */
     .section3 .text p{
         line-height: 20px;
@@ -239,7 +249,11 @@
         padding: 10px;
         
     }
-
+    .section2 h2{
+        font-weight:bold;
+        font-size:20px;
+        padding: 15px 10px;
+    }
 /* SLIDER */
 .section2 .arrows img{
     width: 50px;
@@ -247,6 +261,12 @@
     padding: 0;
     margin: 0;
     opacity: 50%;
+}
+.section2 .arrows img:first-child{
+    margin:0;
+}
+.section2 .arrows img:last-child{
+    margin:0;
 }
 .section2 .arrows img:hover{
     width: 55px;
@@ -270,12 +290,6 @@
     cursor: pointer;
 }
 
-.section2 h2{
-    text-align: center;
-    font-weight:bold;
-    font-size: 30px;
-    padding: 50px 10px 10px 20px ;
-}
 /* ///////// */
     .section3 img{
         max-width: 500px;
