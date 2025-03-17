@@ -2,14 +2,14 @@
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255, 255, 255, 0.329) 0%, rgba(255,255,255,0) 50%);
     border-radius: 10px;
-    width: 222px;
-    padding: 2.5px 10px;
+    width: 212px;
+    padding: 3.5px 8px;
     transition: 0.5s;
 
 }
 .section1 .logo{
     padding: 10px 15px;
-    width: 212px;
+    width: 210px;
     background: rgba(255, 255, 255, 0.452);
     background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255,255,255,0) 50%);
     border-radius: 10px;
@@ -18,11 +18,10 @@
 
 nav a:hover{
     background: #808a226c;
-    transition: 0.5s;
     border-radius: 20px;
-    font-size: 31px;
-    padding: 17px;
-    transition: 0.5s
+    font-size: 26px;
+    padding: 14px;
+    transition: 0.3s
 }
 
 
@@ -30,20 +29,17 @@ nav a:hover{
 
 .section2 .arrows img:hover{
     width: 55px;
-    margin:20px 50px 4px 0;
     transition: 0.5s;
     opacity: 70%;
 
 }
-/* .section2 .slider img:hover{
-    width:  270px;
-    height: 270px;
-    transform: rotate(10deg);
-    margin: 20px 30px;
-    cursor: pointer;
-    transition: 0.5s;
+.section2 .arrows img:first-child:hover{
+    margin:15px 45px 5px 0;
+}
+.section2 .arrows img:last-child:hover{
+    margin:15px 0 5px 45px;
+}
 
-} */
 .section2 .slider img{
 
     transition: 0.5s;

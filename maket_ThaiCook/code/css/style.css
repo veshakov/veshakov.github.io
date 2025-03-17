@@ -1,29 +1,30 @@
-
-
-
-
 /* //////////// */
 .section2{
-    padding: 30px 50px;
+    padding: 10px 50px 30px 50px;
     overflow: hidden;
 }
 /* SLIDER */
  .section2 .arrows img{
     width: 50px;
     transition: 0.5s;
-    margin:20px 50px 10px 0;
+    /* margin:20px 50px 10px 0; */
     opacity: 50%;
+}
+.section2 .arrows img:first-child{
+    margin:20px 50px 10px 0;
+}
+.section2 .arrows img:last-child{
+    margin:20px 0 10px 50px;
 }
 
 .arrows{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 } 
 /* ................. */
 .slider{
-    /* background: #ccc; */
     width: auto;
 }
 
@@ -34,7 +35,6 @@
     background: rgb(166, 204, 158);
     padding: 30px 10px;
     border-radius: 10px;
-    /* background: radial-gradient(circle, rgb(241, 245, 230) 0%, rgb(166, 204, 158) 100%); */
     color: #282C03;
     text-align: center;
     max-width: 300px;
@@ -43,7 +43,6 @@
 
 .slider .card:hover{
     background: rgb(193, 226, 147);
-    /* background: radial-gradient(circle, rgb(241, 245, 230) 0%, rgb(193, 226, 147) 150%); */
 }
 .slider a{
     text-decoration: none;
@@ -59,9 +58,6 @@
 
 }
 .slider .card:hover img{
-    /* margin: 10px 10px 35px 10px;
-    width: 160px;
-    height: 160px; */
     filter: drop-shadow(5px 10px 5px rgba(5, 13, 29, 0.459));
     transition: 0.5s;
 
@@ -73,8 +69,8 @@
 }
 .section2 h2{
     font-weight:bold;
-    font-size: 40px;
-    padding: 20px;
+    font-size: 30px;
+    padding: 25px 20px;
 }
 /* ////////// */
 .section3 .block1{

@@ -7,23 +7,22 @@
 
 }
 .section1 h3{
-    margin: 20px 0 ;
-    font-size: 25px;
+    margin: 10px 0 ;
+    font-size: 18px;
 }
 .section1 .block2{
-    padding: 50px 0 0 0;
+    padding: 15px 0 0 0;
 }
 .section1 .block1{
-    padding: 90px;
+    padding: 40px 70px;
 }
 
 /* //////////// */
 nav{
-
-    background-color: #282C03;
-    
+    /* background-color: #282C03; */
+    background: linear-gradient(0.5turn, #3f87a600, #282c03b9, #0b1803);
     text-align: center;
-    padding: 30px 0px;
+    padding: 15px 0px;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -31,9 +30,9 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
-    font-size: 30px;
-    padding: 20px;
+    font-size: 25px;
+    padding: 15px;
     border-radius: 30px;
     background: none;
-    transition: 0.5s
+    transition: 0.3s
 }
