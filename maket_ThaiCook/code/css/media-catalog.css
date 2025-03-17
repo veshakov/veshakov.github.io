@@ -4,7 +4,17 @@
 }
 
 @media(max-width:980px){
-    
+    .section3  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sticky{
+        position: relative;
+        /* top: auto;
+        left: auto; */
+    }
+    .onTop{display: none;}
     
 }
 @media(max-width:1360px){

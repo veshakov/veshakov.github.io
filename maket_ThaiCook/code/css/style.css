@@ -1,19 +1,19 @@
 /* //////////// */
-.section2{
+.slider{
     padding: 10px 50px 30px 50px;
     overflow: hidden;
 }
 /* SLIDER */
- .section2 .arrows img{
+ .slider .arrows img{
     width: 50px;
     transition: 0.5s;
     /* margin:20px 50px 10px 0; */
     opacity: 50%;
 }
-.section2 .arrows img:first-child{
+.slider .arrows img:first-child{
     margin:20px 50px 10px 0;
 }
-.section2 .arrows img:last-child{
+.slider .arrows img:last-child{
     margin:20px 0 10px 50px;
 }
 

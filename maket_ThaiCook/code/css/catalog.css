@@ -1,5 +1,13 @@
+:root{scroll-behavior: smooth;}
 .section2 {
-    padding: 20px 100px;
+    padding: 20px 50px;
+}
+.sticky{
+    /* border: 1px solid black; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    
 }
 .section2 ul h3{
     padding:10px 0;
@@ -11,6 +19,27 @@
     text-decoration: none;
     transition: 0.3s;
 
+}
+.onTop{
+    background: #808a22;
+    width: 110px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.onTop>a{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.onTop:hover{
+    background: #abb83b;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 9px;
+    transition: 0.3s;
 }
 .section2 .text a:hover{
     transition: 0.3s;
@@ -24,7 +53,15 @@
 
 /* //////// */
 .section3 {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 5% 100%;
+    /* grid: 0.5fr 1.5fr / 1fr ; */
     padding: 20px 100px;
+}
+.section3 .mainblock{
+    grid-column:2,3;
+    grid-row:1,3;
 }
 
 .section3 .block1 h3{
